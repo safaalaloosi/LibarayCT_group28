@@ -26,9 +26,6 @@ public class BrowserUtil {
         return webElementsAsString;
     }
 
-
-
-
     /*
     Method to assert title
      */
@@ -41,9 +38,6 @@ public class BrowserUtil {
 
         //return actualTitle.equals(expectedTitle);
     }
-
-
-
 
     //create method name: wait
     //converting milliseconds to seconds
