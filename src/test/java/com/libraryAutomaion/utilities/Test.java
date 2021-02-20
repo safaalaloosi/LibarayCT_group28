@@ -1,4 +1,4 @@
-package com.libraryAuatmaion.utilities;
+package com.libraryAutomaion.utilities;
 
 public class Test {
     public static void main(String[] args) {
