@@ -9,15 +9,6 @@ import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
-    public static void sleep(double seconds){
-        seconds *= 1000;
-        try {
-            Thread.sleep((long)seconds);
-        } catch (InterruptedException ignored) {
-
-        }
-    }
-
     private static WebDriver driver;
 
     private Driver(){
@@ -53,7 +44,6 @@ public class Driver {
 
     public static void closeDriver(){
         if(driver!=null){
-            sleep(2);
             driver.close();
             driver = null;
         }
