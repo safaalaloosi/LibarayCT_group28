@@ -18,7 +18,8 @@ public class Landing_Page {
     @FindBy(id = "user_groups")
     public WebElement dropDownUserGroups;
 
-
+    @FindBy(name="tbl_users_length")
+    public WebElement dropDownRecords;
 
 
 }
