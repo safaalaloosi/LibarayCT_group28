@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class UserManagementPage {
+public class User_Management_Page {
 
-    public UserManagementPage() {
+    public User_Management_Page() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

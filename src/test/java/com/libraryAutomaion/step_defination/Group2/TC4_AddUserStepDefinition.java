@@ -1,22 +1,21 @@
 package com.libraryAutomaion.step_defination.Group2;
 
 import com.github.javafaker.Faker;
-import com.libraryAutomaion.pages.Group2.LogIn_Page;
-import com.libraryAutomaion.pages.Group2.UserManagementPage;
+import com.libraryAutomaion.pages.Group2.Login_Page;
+import com.libraryAutomaion.pages.Group2.User_Management_Page;
 import com.libraryAutomaion.utilities.BrowserUtil;
 import com.libraryAutomaion.utilities.ConfigurationReader;
 import com.libraryAutomaion.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.java.eo.Se;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 
 public class TC4_AddUserStepDefinition extends BrowserUtil {
 
-    LogIn_Page login = new LogIn_Page();
-    UserManagementPage userManagementPage = new UserManagementPage();
+    Login_Page login = new Login_Page();
+    User_Management_Page userManagementPage = new User_Management_Page();
     Faker faker = new Faker();
 
     @Given("user successfully logged in to the user page")
