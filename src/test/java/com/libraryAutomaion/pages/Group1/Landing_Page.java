@@ -18,7 +18,12 @@ public class Landing_Page {
     @FindBy(id = "user_groups")
     public WebElement dropDownUserGroups;
 
+    @FindBy(name="tbl_users_length")
+    public WebElement dropDownRecords;
 
+    @FindBy(xpath = "//select[@id='book_categories']")
+    public WebElement dropdownBookCategories;
 
-
+    @FindBy(xpath = "//table[@id='tbl_books']//tbody/tr[1]/td[5]")
+    public WebElement bookCategoryFromTable;
 }
