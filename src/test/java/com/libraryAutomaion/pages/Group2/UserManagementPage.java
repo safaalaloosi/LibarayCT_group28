@@ -53,4 +53,6 @@ public class UserManagementPage {
     @FindBy(xpath = "//form[@id='edit_user_form']//button[.='Save changes']")
     public WebElement saveChanges;
 
+    @FindBy (id="user_status")
+    public WebElement statusDropdown;
 }

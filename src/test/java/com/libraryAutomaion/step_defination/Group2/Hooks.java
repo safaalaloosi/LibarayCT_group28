@@ -10,7 +10,8 @@ public class Hooks {
     @After
 
     public void closeDriver(){
-        Driver.closeDriver();
+
+        System.out.println("trying to close the driver");Driver.closeDriver();
     }
 
 }
