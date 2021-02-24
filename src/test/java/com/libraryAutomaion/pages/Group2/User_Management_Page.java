@@ -6,6 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class User_Management_Page {
+import java.util.List;
+
+public class UserManagementPage {
 
     public User_Management_Page() {
         PageFactory.initElements(Driver.getDriver(), this);
@@ -52,5 +55,19 @@ public class User_Management_Page {
     public WebElement editFullName;
     @FindBy(xpath = "//form[@id='edit_user_form']//button[.='Save changes']")
     public WebElement saveChanges;
+
+
+    @FindBy(id = "navbarDropdown")
+    public WebElement logOutDropdown;
+
+    @FindBy(xpath = "//a[.='Log Out']")
+    public WebElement logOutButton;
+
+
+    @FindBy(xpath = "//a[@href='#borrowing-books']")
+    public WebElement borrowingBooksModule;
+
+    @FindBy(xpath = "//table[@id='borrowed_list']//th")
+    public List<WebElement> tableTittles;
 
 }
