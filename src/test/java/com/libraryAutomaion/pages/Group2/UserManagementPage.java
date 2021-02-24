@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class UserManagementPage {
 
     public UserManagementPage() {
@@ -53,4 +55,9 @@ public class UserManagementPage {
     @FindBy(xpath = "//form[@id='edit_user_form']//button[.='Save changes']")
     public WebElement saveChanges;
 
+    @FindBy(xpath = "//a[@href='#borrowing-books']")
+    public WebElement borrowingBooksModule;
+
+    @FindBy(xpath = "//table[@id='borrowed_list']//th")
+    public List<WebElement> tableTittles;
 }
