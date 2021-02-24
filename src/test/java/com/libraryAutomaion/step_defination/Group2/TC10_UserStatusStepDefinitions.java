@@ -29,6 +29,7 @@ sleep(1);
     public void librarian_should_see_the_following_options(List<String> expected) {
 
         Select s1 = new Select(userManagementPage.statusDropdown);
+
         List<String> actualOptions = getElementsText(s1.getOptions());
         Assert.assertEquals(expected, actualOptions);
 
