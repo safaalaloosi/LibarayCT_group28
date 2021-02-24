@@ -1,4 +1,4 @@
-package com.libraryAutomaion.step_defination.Group2;
+package com.libraryAutomaion.step_defination.group2;
 
 import com.libraryAutomaion.pages.Group2.UserManagementPage;
 import com.libraryAutomaion.utilities.BrowserUtil;
