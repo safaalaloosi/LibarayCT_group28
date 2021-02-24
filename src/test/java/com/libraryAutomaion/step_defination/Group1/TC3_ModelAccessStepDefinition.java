@@ -1,4 +1,4 @@
-package com.libraryAutomaion.step_defination.Group1;
+package com.libraryAutomaion.step_defination.group1;
 
 import com.libraryAutomaion.pages.Group1.Base_Page;
 import com.libraryAutomaion.pages.Group1.LogIn_Page;
@@ -27,7 +27,7 @@ public class TC3_ModelAccessStepDefinition extends BrowserUtil {
 
     @Then("User should see following modules:")
     public void user_should_see_following_modules(List<String> expectedModules) {
-        List<WebElement> modules = base_page.navcontainer.findElements(
+        List<WebElement> modules = base_page.navContainer.findElements(
                 By.xpath(".//span[@class = 'title']")
         );
 

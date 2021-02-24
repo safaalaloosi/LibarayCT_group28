@@ -55,9 +55,18 @@ public class UserManagementPage {
     @FindBy(xpath = "//form[@id='edit_user_form']//button[.='Save changes']")
     public WebElement saveChanges;
 
+
+    @FindBy(id = "navbarDropdown")
+    public WebElement logOutDropdown;
+
+    @FindBy(xpath = "//a[.='Log Out']")
+    public WebElement logOutButton;
+
+
     @FindBy(xpath = "//a[@href='#borrowing-books']")
     public WebElement borrowingBooksModule;
 
     @FindBy(xpath = "//table[@id='borrowed_list']//th")
     public List<WebElement> tableTittles;
+
 }
