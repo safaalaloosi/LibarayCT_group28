@@ -1,16 +1,15 @@
 package com.libraryAutomaion.pages.Group2;
-
 import com.libraryAutomaion.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class User_Management_Page {
 import java.util.List;
 
 public class UserManagementPage {
 
-    public User_Management_Page() {
+
+    public UserManagementPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
