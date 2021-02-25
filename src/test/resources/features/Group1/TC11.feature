@@ -1,4 +1,4 @@
-Feature:  User management table feature
+Feature: 11. User management table feature
 
   @dataTable
   Scenario: : User management table columns names

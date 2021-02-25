@@ -1,6 +1,6 @@
 @Safa
 
-Feature:As a user, I should able to see my borrowing books
+Feature: 8. As a user, I should able to see my borrowing books
 
   Scenario:borrowing books tabe columns names
     Given User is on Library login "qa3_url" page

@@ -69,4 +69,7 @@ public class UserManagementPage {
     @FindBy(xpath = "//table[@id='borrowed_list']//th")
     public List<WebElement> tableTittles;
 
+    @FindBy(id = "user_status")
+    public WebElement statusDropdown;
+
 }

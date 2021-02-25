@@ -20,15 +20,15 @@ public class TC10_UserStatusStepDefinitions extends BrowserUtil {
 
     @When("the user click Status dropdown")
     public void the_user_click_status_dropdown() {
-sleep(1);
-        userManagementPage.dropDownStatus.click();
+        sleep(1);
+        userManagementPage.statusDropdown.click();
         sleep(1);
     }
 
     @Then("librarian should see the following options:")
     public void librarian_should_see_the_following_options(List<String> expected) {
 
-        Select s1 = new Select(userManagementPage.dropDownStatus);
+        Select s1 = new Select(userManagementPage.statusDropdown);
 
         List<String> actualOptions = getElementsText(s1.getOptions());
         Assert.assertEquals(expected, actualOptions);

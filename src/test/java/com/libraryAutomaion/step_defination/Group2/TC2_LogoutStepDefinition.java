@@ -11,7 +11,7 @@ public class TC2_LogoutStepDefinition extends BrowserUtil {
     @When("User loges out from app")
     public void user_loges_out_from_app() {
         sleep(1);
-        u1.logOutButton.click();
+        u1.logOutDropdown.click();
         sleep(1);
         u1.logOutButton.click();
         sleep(1);
