@@ -1,11 +1,11 @@
 
-@wip
+
 Feature: As a librarian, I should be able to add users from users page
 
 Background:
   Given user successfully logged in to the user page
   When user enters User Management page
-
+  @wip
   Scenario: Add users with all valid info
     And clicks on Add User button
     Then user can fill up fields with valid info
