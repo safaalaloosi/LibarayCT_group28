@@ -1,7 +1,8 @@
 package com.libraryAutomaion.step_defination.Group2;
 
 import com.github.javafaker.Faker;
-import com.libraryAutomaion.pages.Group2.Login_Page;
+import com.libraryAutomaion.pages.Group2.LoginPage;
+import com.libraryAutomaion.pages.Group2.LoginPage;
 import com.libraryAutomaion.pages.Group2.UserManagementPage;
 import com.libraryAutomaion.utilities.BrowserUtil;
 import com.libraryAutomaion.utilities.ConfigurationReader;
@@ -14,7 +15,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class TC4_AddUserStepDefinition extends BrowserUtil {
 
-    Login_Page login = new Login_Page();
+    LoginPage login = new LoginPage();
     UserManagementPage userManagementPage = new UserManagementPage();
     Faker faker = new Faker();
 
