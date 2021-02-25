@@ -1,5 +1,5 @@
 @tc3
-Feature: As a user, I should be able to  see seveal modules once I login.
+Feature: 3. As a user, I should be able to  see seveal modules once I login.
 
   Background: User is already on Library login page
     Given User is on Library login "qa3_url" page

@@ -1,5 +1,5 @@
 @US6
-Feature: As a students, I should be able to see tables with default info
+Feature: 6. As a students, I should be able to see tables with default info
 
   @TC6.1 @Student
   Scenario: Table columns names

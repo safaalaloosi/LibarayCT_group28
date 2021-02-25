@@ -21,4 +21,13 @@ public class LogIn_Page {
     @FindBy(xpath = "//button[.='Sign in']")
     public WebElement buttonSignIn;
 
+    @FindBy (id="inputEmail")
+    public WebElement inputEmailLogin;
+
+    @FindBy (id="inputPassword")
+    public WebElement inputPassLogin;
+
+    @FindBy (xpath = "//button[.='Sign in']") //find by text
+    public WebElement submitButton;
+
 }

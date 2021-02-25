@@ -1,6 +1,6 @@
 
 @Now
-Feature: As a librarian, I should be able to see book records on user page
+Feature: 5. As a librarian, I should be able to see book records on user page
 
   Background: User is already on Library login page
     Given User is on Library login "qa3_url" page

@@ -1,6 +1,6 @@
-@liv @tc2
+@liv @tc2 @toRun
 
-Feature: As a user, I should be able to logout from the library app
+Feature: 2. As a user, I should be able to logout from the library app
 
   Background: User is already on Library login page
     Given User is on Library login "qa3_url" page

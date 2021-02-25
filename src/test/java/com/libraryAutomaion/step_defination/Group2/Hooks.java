@@ -10,6 +10,11 @@ public class Hooks {
     @After
 
     public void closeDriver(){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Driver.closeDriver();
     }
 
