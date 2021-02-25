@@ -5,13 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Login_Page {
-
-    public Login_Page(){
+public class LoginPage {
+    public LoginPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy (id="inputEmail")
+    @FindBy(id="inputEmail")
     public WebElement inputEmailLogin;
 
     @FindBy (id="inputPassword")
@@ -19,8 +18,6 @@ public class Login_Page {
 
     @FindBy (xpath = "//button[.='Sign in']") //find by text
     public WebElement submitButton;
-
-
 
 
 }
