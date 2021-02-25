@@ -1,4 +1,4 @@
-package com.libraryAutomaion.step_defination.group1;
+package com.libraryAutomaion.step_defination.Group1;
 
 import com.libraryAutomaion.pages.Group1.Base_Page;
 import com.libraryAutomaion.pages.Group1.LogIn_Page;

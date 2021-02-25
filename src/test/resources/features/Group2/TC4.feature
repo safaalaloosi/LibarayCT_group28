@@ -1,6 +1,6 @@
 
 
-Feature: As a librarian, I should be able to add users from users page
+Feature: 4. As a librarian, I should be able to add users from users page
 
 Background:
   Given user successfully logged in to the user page

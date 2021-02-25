@@ -20,7 +20,7 @@ public class TC10_UserStatusStepDefinitions extends BrowserUtil {
 
     @When("the user click Status dropdown")
     public void the_user_click_status_dropdown() {
-sleep(1);
+        sleep(1);
         userManagementPage.statusDropdown.click();
         sleep(1);
     }
